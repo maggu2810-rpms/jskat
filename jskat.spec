@@ -111,7 +111,7 @@ Andere Funktionen
 
 %prep
 
-%setup -T -q -n %{name}-%{version}
+#%setup -T -q -c -n %{name}-%{version}
 
 %install
 rm -rf $RPM_BUILD_ROOT
