@@ -7,7 +7,7 @@ Release:	3%{?dist}
 License:	GPLv3
 Group:		Games/Cards
 URL:		https://github.com/b0n541/jskat-multimodule/releases
-Source0:	%{name}-%{version}.tar
+Source0:	https://github.com/b0n541/%{name}-multimodule/releases/download/v%{version}/%{name}-linux-%{version}.jar
 Source1:	jskat.png
 Summary:	An implementation of the German card game Skat in Java
 Summary(de):	Eine Implementierung des deutschen Kartenspiels Skat in Java
