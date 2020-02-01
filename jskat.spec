@@ -117,7 +117,7 @@ Andere Funktionen
 rm -rf $RPM_BUILD_ROOT
 
 mkdir -p %{buildroot}%{_datadir}/%{name}
-cp -v %{name}-linux-%{version}.jar %{buildroot}%{_datadir}/%{name}
+cp -v %{_sourcedir}/%{name}-linux-%{version}.jar %{buildroot}%{_datadir}/%{name}
 chmod 0755 %{buildroot}%{_datadir}/%{name}/%{name}-linux-%{version}.jar
 
 install -d -m 0755 %buildroot%_datadir/pixmaps
