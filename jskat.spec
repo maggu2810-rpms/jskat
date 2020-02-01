@@ -1,5 +1,4 @@
 %define prefix /usr
-%define __jar_repack %{nil}
 
 Name:		jskat
 Version:	0.17.0
@@ -112,7 +111,7 @@ Andere Funktionen
 
 %prep
 
-%setup -q -n %{name}-%{version}
+%setup -T -q -n %{name}-%{version}
 
 %install
 rm -rf $RPM_BUILD_ROOT
